@@ -23,24 +23,27 @@
 }
 ```
 
-<h2>💻&nbsp;my skills</h2>
-<h3>mastered</h3>
+<h2>💻&nbsp;tech stack</h2>
+<h3>familiar</h3>
 <p align='left'>
-	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-line.svg" alt="c" width="69" height="69"/>
+	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-line.svg" alt="c-syn" width="69" height="69"/>
 	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/latex/latex-original.svg" alt="latex" width="69" height="69"/>
-	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-plain.svg" alt="linux" width="69" height="69"/>
-	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vim/vim-plain.svg" alt="vim" width="69" height="69"/>
 	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg" alt="git" width="69" height="69"/>
 </p>
 <h3>currently learning</h3>
 <p align='left'>
+	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-line.svg" alt="c-dev" width="69" height="69"/>
 	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-line.svg" alt="cpp" width="69" height="69"/>
 	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opengl/opengl-original.svg" alt="opengl" width="69" height="69"/>
-	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" alt="js" width="69" height="69"/>
-	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="react" width="69" height="69"/>
-	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg" alt="nextjs" width="69" height="69"/>
 	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="toy-language" width="69" height="69"/>
 </p>
+<h3>tools i use</h3>
+<p align='left'>
+	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-plain.svg" alt="linux" width="69" height="69"/>
+	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/debian/debian-plain.svg" alt="debian" width="69" height="69"/>
+	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vim/vim-plain.svg" alt="neovim" width="69" height="69"/>
+</p>
+
 
 <h2>🏆&nbsp;achievements</h2>
 
