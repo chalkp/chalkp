@@ -9,17 +9,16 @@
 	"name": "Sorrawit Poomseetong",
 	"location": "Chatuchak, Bangkok",
 	"education": {
-		"grade-school": "Anuban NST",
 		"middle-school": "Benjamarachutit School",
-		"secondary-school": "GED"
+		"secondary-school": "GED",
 	},
 	"field_of_interest": [
 		"Fun small projects",
-		"Game Developtment",
-		"ESP32",
+		"Game Development",
 		"Game Hacking",
-		"Touhou weeb shit lmfao"
-	]
+		"ESP32",
+		"Rhythm Games",
+	],
 }
 ```
 
