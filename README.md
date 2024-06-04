@@ -11,10 +11,9 @@
 	"education": {
 		"middle-school": "Benjamarachutit School",
 		"secondary-school": "GED",
+        "undergraduate": "Computer Engineering CU"
 	},
 	"field_of_interest": [
-		"Fun small projects",
-		"Game Development",
 		"Game Hacking",
 		"ESP32",
 		"Rhythm Games",
