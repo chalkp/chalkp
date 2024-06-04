@@ -11,7 +11,7 @@
 	"education": {
 		"middle-school": "Benjamarachutit School",
 		"secondary-school": "GED",
-        "undergraduate": "Computer Engineering CU"
+        	"undergraduate": "Computer Engineering CU"
 	},
 	"field_of_interest": [
 		"Game Hacking",
