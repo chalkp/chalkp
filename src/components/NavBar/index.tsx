@@ -28,16 +28,16 @@ export default function NavBar() {
     }
   ]
   return (
-    <header className="py-7 xl:py12 bg-bkk-green text-white font-bold font-saochingcha"> {/* looks better when resize */}
+    <header className="py-7 xl:py-7 bg-bkk-green text-white font-bold"> {/* looks better when resize */}
       <div className="container mx-auto flex justify-between items-center">
         <Link href="/">
           <h1 className="text-4xl">chalkp</h1>
         </Link>
-        <div className="hidden xl:flex">
-          <nav className="flex gap-6">
+        <div className="hidden xl:flex items-center">
+          <nav className="flex gap-8">
             { navBarItems.map(({ href, label }, index) => (
               <Link key={index} href={href} className={`border-bkk-accent ${(href === current)? "border-b-4": "hover:border-b-2"}`}>
-                <span className="text-2xl">
+                <span className="text-xl">
                   {label}
                 </span>
               </Link>

@@ -7,23 +7,29 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {
-      fontFamily: {
-        saochingcha: ['saochingcha', 'sans-serif']
-      },
-      container: {
-        center: true,
-        padding: '15px'
-      },
+    container: {
+      center: true,
+      padding: "15px",
     },
     colors: {
       'white': '#ffffff',
       'chalk-orange': '#ee7724',
       'bkk-green': '#0A6430',
       'bkk-dark-green': '#225942',
+      'bkk-bright-green': '#19861a',
       'bkk-accent': '#d3be90',
       'bkk-background-white': '#eef1e6'
-    }
+    },
+    extend: {
+      fontFamily: {
+        saochingcha: ['saochingcha', 'sans-serif'],
+        ChulaCharasNew: ['ChulaCharasNew', 'sans-serif']
+      },
+      container: {
+        center: true,
+        padding: '15px'
+      },
+    },
   },
   plugins: [],
 }
