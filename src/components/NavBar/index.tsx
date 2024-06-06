@@ -29,8 +29,8 @@ export default function NavBar() {
         </Link>
 
         <div className="lg:px-12 px-3 lg:w-1/4 w-1/2 space-x-2 lg:space-x-8 self-center">
-          { navBarItems.map(({ href, label }) => (
-              <Link href={href}>
+          { navBarItems.map(({ href, label }, index) => (
+              <Link key={index} href={href}>
                 <span className="text-white text-2xl font-bold font-saochingcha">
                   {label}
                 </span>
