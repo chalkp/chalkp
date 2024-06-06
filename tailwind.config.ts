@@ -11,6 +11,10 @@ const config: Config = {
       center: true,
       padding: "15px",
     },
+    screens: {
+      // 1200px looks fire af
+      xl: "1200px",
+    },
     colors: {
       'white': '#ffffff',
       'chalk-orange': '#ee7724',

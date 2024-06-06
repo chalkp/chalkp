@@ -2,6 +2,7 @@
 import { useTranslation } from "react-i18next"
 import Image from "next/image"
 import Head from "next/head"
+import Link from "next/link"
 
 export default function Home() {
 
@@ -31,6 +32,13 @@ export default function Home() {
                     <p className="font-saochingcha text-[20px]">
                       &quot;Clowns together powerful.&quot; -chalk
                     </p>
+                  </div>
+                  <div className="flex flex-col xl:flex-row items-center gap-8">
+                    <Link
+                      href="/contact"
+                      className="text-sm px-4 py-2 text-bkk-dark-green border-bkk-bright-green border-2 rounded-full">
+                      <span>Contact</span>
+                    </Link>
                   </div>
                 </div>
                 <div className="order-1 xl:order-none mb-8 xl:mb-0">
