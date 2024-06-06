@@ -1,8 +1,15 @@
+"use client"
 import Link from "next/link"
+import { usePathname } from "next/navigation";
+import MobileNavBar from "./MobileNavBar";
 
 export default function NavBar() {
-
+  const current = usePathname();
   const navBarItems = [
+    {
+      href: "/",
+      label: "home",
+    },
     {
       href: "/about",
       label: "about",
@@ -20,25 +27,28 @@ export default function NavBar() {
       label: "github"
     }
   ]
-  // i have absolutely no fucking idea what am i doing here, im a css noob
   return (
-    <div className="bg-bkk-green h-24 w-full shadow-md">
-      <div className="px-40 h-full flex flex-wrap items-center">
-        <Link href="/" className="text-white text-4xl font-bold font-saochingcha px-6 lg:w-4/6">
-          <span>chalkp</span>
+    <header className="py-7 xl:py12 bg-bkk-green text-white font-bold font-saochingcha"> {/* looks better when resize */}
+      <div className="container mx-auto flex justify-between items-center">
+        <Link href="/">
+          <h1 className="text-4xl">chalkp</h1>
         </Link>
-
-        <div className="lg:px-12 px-3 lg:w-1/4 w-1/2 space-x-2 lg:space-x-8 self-center">
-          { navBarItems.map(({ href, label }, index) => (
-              <Link key={index} href={href}>
-                <span className="text-white text-2xl font-bold font-saochingcha">
+        <div className="hidden xl:flex">
+          <nav className="flex gap-6">
+            { navBarItems.map(({ href, label }, index) => (
+              <Link key={index} href={href} className={`border-bkk-accent ${(href === current)? "border-b-4": "hover:border-b-2"}`}>
+                <span className="text-2xl">
                   {label}
                 </span>
               </Link>
-            ))
-          }
+              ))
+            }
+          </nav>
+        </div>
+        <div className="xl:hidden">
+          <MobileNavBar />
         </div>
       </div>
-    </div>
+    </header>
   )
 }

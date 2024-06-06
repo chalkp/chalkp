@@ -1,4 +1,4 @@
-export default function Home() {
+export default function Contact() {
   return (
     <main>
       <h1 className="font-bold font-saochingcha">coming soon</h1>
