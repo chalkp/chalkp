@@ -4,5 +4,6 @@ export const translation = {
 
 export const home = {
   name: 'Sorrawit',
-  surname: 'Poomseetong'
+  surname: 'Poomseetong',
+  quote: 'Never underestimate the power of collective autism.'
 }

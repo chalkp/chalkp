@@ -21,6 +21,7 @@ const config: Config = {
       'bkk-green': '#0A6430',
       'bkk-dark-green': '#225942',
       'bkk-bright-green': '#19861a',
+      'bkk-orange': '#fe750d',
       'bkk-accent': '#d3be90',
       'bkk-background-white': '#eef1e6'
     },

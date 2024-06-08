@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'ChulaCharasNew';
+  src: local('ChulaCharasNew'), url('/fonts/Chula/ChulaCharasNewReg.ttf');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ChulaCharasNew';
+  src: local('ChulaCharasNew Bold'), url('/fonts/Chula/ChulaCharasNewBold.ttf');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ChulaCharasNew';
+  src: local('ChulaCharasNew Italic'), url('/fonts/Chula/ChulaCharasNewIta.ttf');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ChulaCharasNew';
+  src: local('ChulaCharasNew Bold Italic'), url('/fonts/Chula/ChulaCharasNewBoldIta.ttf');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}

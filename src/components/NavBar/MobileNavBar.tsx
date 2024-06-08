@@ -1,5 +1,6 @@
 import { usePathname } from 'next/navigation'
 import React from 'react'
+import { TfiAlignCenter } from 'react-icons/tfi';
 
 export default function MobileNavBar() {
   const current = usePathname();
@@ -26,8 +27,8 @@ export default function MobileNavBar() {
     }
   ]
   return (
-    <>
-      <h1>coming soon</h1>
-    </>
+    <div className='text-3xl'>
+      <TfiAlignCenter/>
+    </div>
   )
 }

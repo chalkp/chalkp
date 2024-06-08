@@ -28,7 +28,7 @@ export default function NavBar() {
     }
   ]
   return (
-    <header className="py-7 xl:py-7 bg-bkk-green text-white font-bold"> {/* looks better when resize */}
+    <header className="py-7 xl:py-7 bg-bkk-green text-bkk-background-white font-bold"> {/* looks better when resize */}
       <div className="container mx-auto flex justify-between items-center">
         <Link href="/">
           <h1 className="text-4xl">chalkp</h1>
@@ -44,6 +44,11 @@ export default function NavBar() {
               ))
             }
           </nav>
+        </div>
+        <div className="xl:hidden">
+          <h1 className="text-bkk-background-white text-4xl">
+            Mobile Support in progress
+          </h1>
         </div>
         <div className="xl:hidden">
           <MobileNavBar />
