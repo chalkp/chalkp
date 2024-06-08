@@ -50,6 +50,7 @@ export default function MobileNavBar() {
             <Link
               key={index}
               href={href}
+              onClick={() => setOpen(false)}
               className={`border-bkk-accent hover:text-bkk-accent
                 ${(href === current)? "border-b-4 text-bkk-accent": ""}`}>
               <span>
