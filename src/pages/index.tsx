@@ -1,10 +1,10 @@
 "use client"
 import { useTranslation } from "react-i18next"
-import Image from "next/image"
 import Head from "next/head"
 import Link from "next/link"
 import { FaFacebook, FaGithub, FaInstagram } from "react-icons/fa"
 import { SiProtonmail } from "react-icons/si"
+import ProfilePic from "@/components/ProfilePic"
 
 export default function Home() {
 
@@ -52,18 +52,7 @@ export default function Home() {
 
                 {/* clown pic */}
                 <div className="order-1 xl:order-none mb-8 xl:mb-0">
-                  <div className="w-full h-full relative">
-                    <div className="w-[300px] h-[300px] xl:w-[690px] xl:h-[690px]">
-                      <Image
-                        src="/assets/profile_pic.png"
-                        priority
-                        quality={100}
-                        fill
-                        alt=""
-                        className="object-contain"
-                      />
-                    </div>
-                  </div>
+                  <ProfilePic />
                 </div>
 
               </div> {/* /div 3 */}

@@ -6,7 +6,7 @@ import Image from "next/image"
 export default function Lang() {
   const [language, setLanguage] = useState(i18n.language);
 
-  function changeLanguage() {
+  const changeLanguage = () => {
     if (language == 'th') {
       i18n.changeLanguage('en')
       setLanguage('en')
@@ -16,12 +16,14 @@ export default function Lang() {
     }
   }
   return (
-    <div className="relative">
-      <button type="button" onClick={() => changeLanguage()}>
-        <span className="flex justify-center text-xl h-6">
-          <Image src={(language == 'th')? "/assets/flags/en.svg": "/assets/flags/th.svg"} alt={`lang-${language}`}/>
-        </span>
-      </button>
+    <div className="relative ml-1">
+      <span className="flex justify-center text-xl" onClick={changeLanguage}>
+        <Image
+          src={(language == 'th')? "/assets/flags/en.svg": "/assets/flags/th.svg"}
+          alt={`lang-${language}`}
+          height={30}
+          width={30} />
+      </span>
     </div>
   )
 }
