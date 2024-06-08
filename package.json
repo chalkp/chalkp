@@ -1,7 +1,20 @@
 {
   "name": "chalkp",
+  "description": "https://chalkp.com source code",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chalkp/chalkp.git"
+  },
+  "license": "MIT",
   "version": "0.1.0",
   "private": true,
+  "author": "Sorrawit Poomseetong <contact@chalkp.com> (https://github.com/chalkp)",
+  "homepage": "https://github.com/chalkp/chalkp",
+  "bugs": {
+    "url": "https://github.com/chalkp/chalkp/issues",
+    "email": "bugs@chalkp.com"
+  },
+
   "scripts": {
     "dev": "next dev",
     "build": "next build",
