@@ -1,3 +1,2 @@
-(A) implement background opacity on mobile navbar
 (B) contact
 (B) about page

@@ -54,8 +54,8 @@ export default function Navigation() {
         <div className='text-4xl'>
           <MdMenu onClick={() => setOpen(true)} className={open? 'hidden':''}/>
         </div>
-        <div className={`top-0 right-0 h-full w-3/4 max-w-sm z-50 bg-bkk-green fixed ease-in-out duration-300 ${
-          open ? 'translate-x-0' : 'translate-x-full'
+        <div className={`top-0 right-0 h-full w-3/4 max-w-sm z-50 bg-bkk-green shadow-2xl fixed ease-in-out duration-300 ${
+          open ? 'animate-in fade-in-0 slide-in-from-right' : 'translate-x-full'
         }`}>
           <div className='container py-7 px-4 flex justify-between'> {/* just to make X align with menu bar */}
             <span></span>
