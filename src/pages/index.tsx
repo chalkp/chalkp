@@ -5,10 +5,12 @@ import Link from "next/link"
 import { FaFacebook, FaGithub, FaInstagram } from "react-icons/fa"
 import { SiProtonmail } from "react-icons/si"
 import ProfilePic from "@/components/ProfilePic"
+import i18n from "@/i18n"
 
 export default function Home() {
 
   const { t } = useTranslation(['home', 'translation'])
+  const language = i18n.language;
 
   return (
     <>
@@ -25,13 +27,13 @@ export default function Home() {
 
                 {/* introduction */}
                 <div className="text-center xl:text-left order-2 xl:order-none"> {/* div intro */}
-                  <div className="text-bkk-bright-green font-bold xl:text-8xl text-6xl"> {/* div name */}
+                  <div className={`text-bkk-bright-green font-bold xl:text-8xl ${(language == 'th')? 'text-7xl' : 'text-6xl'}`}> {/* div name */}
                     <h1>{t('home:name')}</h1>
                     <h1>{t('home:surname')}</h1>
                   </div>
                   <div className="max-w-[420px] mb-9 font-normal">
                     <p className="font-ChulaCharasNew text-[20px]"> {/* university flex */}
-                      Computer Engineering Chulalongkorn University
+                      {t('home:university')}
                     </p>
                     <p className="font-saochingcha font-medium text-[20px]">
                       {t('home:quote')}
@@ -43,7 +45,7 @@ export default function Home() {
                       href="/contact"
                       className="text-xl px-4 py-2 border-2 rounded-full text-bkk-dark-green border-bkk-bright-green
                       hover:bg-bkk-bright-green hover:text-bkk-background-white hover:duration-300"> {/* what the fuck */}
-                      <span>contact me</span>
+                      <span>{t('home:contact')}</span>
                     </Link>
                     <Social />
                   </div>
