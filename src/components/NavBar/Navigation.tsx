@@ -19,6 +19,10 @@ const navBarItems = [
     label: "works"
   },
   {
+    href: "/maimai",
+    label: "maimai"
+  },
+  {
     href: "/contact",
     label: "contact"
   }

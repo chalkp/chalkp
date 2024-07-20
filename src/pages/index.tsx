@@ -1,21 +1,31 @@
 "use client"
+
 import { useTranslation } from "react-i18next"
 import Head from "next/head"
 import Link from "next/link"
-import { FaFacebook, FaGithub, FaInstagram } from "react-icons/fa"
-import { SiProtonmail } from "react-icons/si"
+import { FaFacebook, FaGithub, FaInstagram, FaEnvelope } from "react-icons/fa"
 import ProfilePic from "@/components/ProfilePic"
 import i18n from "@/i18n"
+import { useState } from "react"
 
 export default function Home() {
-
   const { t } = useTranslation(['home', 'translation'])
-  const language = i18n.language;
+  const language = i18n.language
+  
+  const [name, setName] = useState('name')
 
+  const toggleName = () => {
+    if (name === 'name') {
+      setName('chalk')
+      return
+    }
+    setName('name')
+  }
+  
   return (
     <>
       <Head>
-        <title>Sorrawit Poomseetong</title>
+        <title>chalkp.com: ~</title>
         <meta name="title" content="chalkp" />
         <meta name="description" content="Sorrawit Poomseetong" />
       </Head>
@@ -28,7 +38,9 @@ export default function Home() {
                 {/* introduction */}
                 <div className="text-center xl:text-left order-2 xl:order-none"> {/* div intro */}
                   <div className={`text-bkk-bright-green font-bold xl:text-8xl ${(language == 'th')? 'text-7xl' : 'text-6xl'}`}> {/* div name */}
-                    <h1>{t('home:name')}</h1>
+                    <button onClick={toggleName}>
+                      <h1>{t(`home:${name}`)}</h1>
+                    </button>
                     <h1>{t('home:surname')}</h1>
                   </div>
                   <div className="max-w-[420px] mb-9 font-normal">
@@ -42,7 +54,7 @@ export default function Home() {
                   {/* contacts and social */}
                   <div className="flex flex-col xl:flex-row items-center gap-8">
                     <Link
-                      href="/contact"
+                      href="https://youtu.be/dQw4w9WgXcQ"
                       className="text-xl px-4 py-2 border-2 rounded-full text-bkk-dark-green border-bkk-bright-green
                       hover:bg-bkk-bright-green hover:text-bkk-background-white hover:duration-300"> {/* what the fuck */}
                       <span>{t('home:contact')}</span>
@@ -81,7 +93,7 @@ function Social() {
       href: "https://instagram.com/chalk.cpp/"
     },
     {
-      icon: <SiProtonmail />,
+      icon: <FaEnvelope />,
       href: "mailto:contact@chalkp.com"
     },
   ]

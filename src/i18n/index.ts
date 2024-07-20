@@ -5,10 +5,7 @@ import i18n from 'i18next'
 import * as th from './locales/th'
 import * as en from './locales/en'
 
-export const resources = {
-  en,
-  th
-}
+export const resources = { en, th }
 
 i18n.use(initReactI18next).init({
   resources,

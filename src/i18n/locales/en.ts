@@ -3,6 +3,7 @@ export const translation = {
 }
 
 export const home = {
+  chalk: 'Chalk',
   name: 'Sorrawit',
   surname: 'Poomseetong',
   quote: '\"Never underestimate the power of collective autism.\" -chalk',
