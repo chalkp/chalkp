@@ -11,7 +11,8 @@ export default function NavBar() {
   }
 
   return (
-    <header className="py-7 bg-bkk-green text-bkk-background-white font-bold"> {/* looks better when resize */}
+    <header className="py-7 bg-gradient-to-r font-bold
+      from-bkk-green from-10% via-bkk-green-nid-nid via-50% to-bkk-green to-90% text-bkk-background-white">
       <div className="container mx-auto flex justify-between items-center">
         <Link href="/" onClick={incrementCount} className="flex">
           <h1 className="text-4xl">

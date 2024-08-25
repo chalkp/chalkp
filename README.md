@@ -55,6 +55,6 @@
 <p align="center">
 	<a href="mailto:contact@chalkp.com"><img src="https://img.shields.io/badge/email-%236D4AFF.svg?style=for-the-badge&logo=Protonmail&logoColor=white"></a>
 	<a href="https://instagram.com/chalk.cpp"><img src="https://img.shields.io/badge/chalk.cpp-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white"></a>
-	<a href="https://facebook.com/chalkp"><img src="https://img.shields.io/badge/Sorrawit-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white"></a>
+	<a  href="https://www.linkedin.com/in/chalkp/"><img  src="https://img.shields.io/badge/Sorrawit-%230077B5.svg?style=for-the-badge&logo=Linkedin&logoColor=white"></a>
 	<a href="https://discord.com"><img src="https://img.shields.io/badge/@chalkp-%235865F2.svg?style=for-the-badge&logo=Discord&logoColor=white"></a>
 </p>

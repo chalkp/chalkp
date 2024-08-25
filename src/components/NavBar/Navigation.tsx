@@ -19,13 +19,9 @@ const navBarItems = [
     label: "works"
   },
   {
-    href: "/maimai",
-    label: "maimai"
-  },
-  {
     href: "/contact",
     label: "contact"
-  }
+  },
 ]
 
 export default function Navigation() {
@@ -58,15 +54,16 @@ export default function Navigation() {
         <div className='text-4xl'>
           <MdMenu onClick={() => setOpen(true)} className={open? 'hidden':''}/>
         </div>
-        <div className={`top-0 right-0 h-full w-3/4 max-w-sm z-50 bg-bkk-green shadow-2xl fixed ease-in-out duration-300 ${
+        <div className={`top-0 right-0 h-full w-3/4 max-w-72 z-50 bg-bkk-green shadow-2xl fixed ease-in-out duration-300 ${
           open ? 'animate-in fade-in-0 slide-in-from-right' : 'translate-x-full'
         }`}>
-          <div className='container py-7 px-4 flex justify-between'> {/* just to make X align with menu bar */}
+          <div className='container py-8 px-4 flex justify-between'> {/* just to make X align with menu bar */}
             <span></span>
             <MdClose onClick={() => setOpen(false)} className='text-4xl text-bkk-accent'/>
           </div>
           <Link href="/" className='mt-20 flex justify-center'>
             <h1 className="text-4xl">chalkp</h1>
+            <h6 className="mx-2 mt-3">beta</h6>
           </Link>
           <nav className='mt-40 flex flex-col justify-center items-center text-xl gap-8'>
             { navBarItems.map(({ href, label }, index) => (

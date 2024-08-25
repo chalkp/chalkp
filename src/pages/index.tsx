@@ -3,7 +3,7 @@
 import { useTranslation } from "react-i18next"
 import Head from "next/head"
 import Link from "next/link"
-import { FaFacebook, FaGithub, FaInstagram, FaEnvelope } from "react-icons/fa"
+import { FaGithub, FaInstagram, FaEnvelope, FaLinkedin } from "react-icons/fa"
 import ProfilePic from "@/components/ProfilePic"
 import i18n from "@/i18n"
 import { useState } from "react"
@@ -81,12 +81,12 @@ export default function Home() {
 function Social() {
   const socials = [
     {
-      icon: <FaFacebook />,
-      href: "https://facebook.com/chalkp/"
-    },
-    {
       icon: <FaGithub />,
       href: "https://github.com/chalkp/"
+    },
+    {
+      icon: <FaLinkedin />,
+      href: "https://www.linkedin.com/in/chalkp/"
     },
     {
       icon: <FaInstagram />,
