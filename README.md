@@ -1,5 +1,5 @@
 <h1 align='center'><a href="https://chalkp.com/">chalkp</a></h1>
-<p>Cringy ass AI enthusiast computer engineering student</p>
+<p>"Friendly" AI enthusiast computer engineering student</p>
 
 <h2 align='center'>information</h2>
 
@@ -13,16 +13,16 @@
 		"undergraduate": "Computer Engineering CU (2024~)",
 	},
 	"interests": [
-		"AI shits",
-		"operating system",
+		"AI bullshits",
 		"low level programming in general",
 		"game cheats",
+		"you",
 	],
 	"hobbies": [
 		"Counter Strike 2",
 		"maimai",
-		"Game Hacking",
-		"ESP32",
+		"Baking",
+		"",
 	],
 }
 ```
@@ -32,27 +32,27 @@
 <h4>familiar</h4>
 <p>
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=c" />
+    <img src="https://skillicons.dev/icons?i=c,python,java" />
   </a>
 </p>
 
-<h4>can-do</h4>
+<h4>"familiar" if held at gunpoint</h4>
 <p>
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=cpp,java,python,lua,react,next" />
+    <img src="https://skillicons.dev/icons?i=cpp,js" />
   </a>
 </p>
 
 <h4>tools</h4>
 <p>
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,ubuntu,linux,vim,vscode,cmake,mysql" />
+    <img src="https://skillicons.dev/icons?i=git,vim,cmake,pytorch,tensorflow" />
   </a>
 </p>
 
 ---
 <h3 align = 'center'>contacts</h3>
-<p align="center">only do so if it is a serious stuff.</p>
+<p align="center">Contact me only if it’s critical, I’m fucking serious.</p>
 <p align="center">
 	<a href="mailto:contact@chalkp.com"><img src="https://img.shields.io/badge/email-%236D4AFF.svg?style=for-the-badge&logo=Protonmail&logoColor=white"></a>
 	<a href="https://www.linkedin.com/in/chalkp/"><img src="https://img.shields.io/badge/Linkedin-%230077B5.svg?style=for-the-badge&logo=Linkedin&logoColor=white"></a>
