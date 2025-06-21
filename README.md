@@ -1,5 +1,5 @@
 <h1 align='center'><a href="https://chalkp.com/">chalkp</a></h1>
-<p>"Friendly" AI enthusiast computer engineering student</p>
+<p>AI enthusiast computer engineering student</p>
 
 <h2 align='center'>information</h2>
 
@@ -22,7 +22,7 @@
 		"Counter Strike 2",
 		"maimai",
 		"Baking",
-		"",
+		"Game Hacking",
 	],
 }
 ```
@@ -52,7 +52,7 @@
 
 ---
 <h3 align = 'center'>contacts</h3>
-<p align="center">Contact me only if it’s critical, I’m fucking serious.</p>
+<p align="center">Contact me only if it’s critical.</p>
 <p align="center">
 	<a href="mailto:contact@chalkp.com"><img src="https://img.shields.io/badge/email-%236D4AFF.svg?style=for-the-badge&logo=Protonmail&logoColor=white"></a>
 	<a href="https://www.linkedin.com/in/chalkp/"><img src="https://img.shields.io/badge/Linkedin-%230077B5.svg?style=for-the-badge&logo=Linkedin&logoColor=white"></a>
