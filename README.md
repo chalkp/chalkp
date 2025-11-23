@@ -17,8 +17,7 @@
         "VLA & Diffusion policies for robotic control",
         "Multimodal Human-Robot Interaction",
         "ASR for low-resource languages",
-//        "Quantum optimization algorithms",
-        "you",
+//        "Quantum optimization algorithms",  <-- deprecated for now
     ],
     "education": {
         "current": "Computer Engineering, Chulalongkorn (2024~)",
@@ -43,5 +42,5 @@
 	<a href="https://www.linkedin.com/in/chalkp/"><img src="https://img.shields.io/badge/Linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"></a>
 	<a href="https://discord.com"><img src="https://img.shields.io/badge/@chalkp-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white"></a>
 	<a href="https://steamcommunity.com/id/chalkp/"><img src="https://img.shields.io/badge/steam-%231B2838.svg?style=for-the-badge&logo=steam&logoColor=white"></a>
-	<a href="https://orcid.org/0009-0006-5613-2565"><img src="https://img.shields.io/badge/orcid-%231B2838.svg?style=for-the-badge&logo=orcid&logoColor=white"></a>
+	<a href="https://orcid.org/0009-0006-5613-2565"><img src="https://img.shields.io/badge/orcid-%2523A6CE39.svg?style=for-the-badge&logo=orcid&logoColor=white"></a>
 </p>
