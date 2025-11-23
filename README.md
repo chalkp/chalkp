@@ -1,61 +1,47 @@
-<h1 align='center'><a href="https://chalkp.com/">chalkp</a></h1>
-<p>AI enthusiast computer engineering student</p>
+<h1 align='center'>
+  <a href="https://chalkp.com/">
+    chalkp
+  </a>
+</h1>
 
-<h2 align='center'>information</h2>
+<div align='center'> Robotics | ASR </div>
 
-```json
+<h2 align='center'>info</h2>
+
+```javascript
 {
-	"name": "Sorrawit Poomseetong",
-	"location": "Chatuchak, Bangkok",
-	"education": {
-		"middle-school": "Benjamarachutit School (2019~2021)",
-		"secondary-school": "Triamudom(2022) -> GED",
-		"undergraduate": "Computer Engineering CU (2024~)",
-	},
-	"interests": [
-		"AI bullshits",
-		"low level programming in general",
-		"game cheats",
-		"you",
-	],
-	"hobbies": [
-		"Counter Strike 2",
-		"maimai",
-		"Baking",
-		"Game Hacking",
-	],
+    "name": "Sorrawit Poomseetong",
+    "location": "Pathum Wan, Bangkok",
+    "communication_protocol": "Asynchronous ONLY",
+    "current_focus": [
+        "VLA & Diffusion policies for robotic control",
+        "Multimodal Human-Robot Interaction",
+        "ASR for low-resource languages",
+//        "Quantum optimization algorithms",
+        "you",
+    ],
+    "education": {
+        "current": "Computer Engineering, Chulalongkorn (2024~)",
+        "previous": "Triam Udom Suksa -> GED (Speedrun)",
+    },
 }
 ```
-
 <h2 align='center'>skill set</h2>
+<div align="center">
 
-<h4>familiar</h4>
-<p>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=c,python,java" />
-  </a>
-</p>
+| **Familiar** | **Familiar (under violence)** | **I refuse to do this (non-negotiable)** |
+| :---: | :---: | :---: |
+| <img src="https://skillicons.dev/icons?i=python,pytorch,c,cpp" /> | <img src="https://skillicons.dev/icons?i=matlab,js,ts" /> | <img src="https://skillicons.dev/icons?i=html,css,figma,react" /> |
 
-<h4>"familiar" if held at gunpoint</h4>
-<p>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=cpp,js" />
-  </a>
-</p>
-
-<h4>tools</h4>
-<p>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,vim,cmake,pytorch,tensorflow" />
-  </a>
-</p>
+</div>
 
 ---
 <h3 align = 'center'>contacts</h3>
 <p align="center">Contact me only if it’s critical.</p>
 <p align="center">
-	<a href="mailto:contact@chalkp.com"><img src="https://img.shields.io/badge/email-%236D4AFF.svg?style=for-the-badge&logo=Protonmail&logoColor=white"></a>
-	<a href="https://www.linkedin.com/in/chalkp/"><img src="https://img.shields.io/badge/Linkedin-%230077B5.svg?style=for-the-badge&logo=Linkedin&logoColor=white"></a>
-	<a href="https://discord.com"><img src="https://img.shields.io/badge/@chalkp-%235865F2.svg?style=for-the-badge&logo=Discord&logoColor=white"></a>
-	<a href="https://steamcommunity.com/id/chalkp/"><img src="https://img.shields.io/badge/Steam-%231B2838.svg?style=for-the-badge&logo=Steam&logoColor=white"></a>
+	<a href="mailto:contact@chalkp.com"><img src="https://img.shields.io/badge/email-%236D4AFF.svg?style=for-the-badge&logo=protonmail&logoColor=white"></a>
+	<a href="https://www.linkedin.com/in/chalkp/"><img src="https://img.shields.io/badge/Linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+	<a href="https://discord.com"><img src="https://img.shields.io/badge/@chalkp-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white"></a>
+	<a href="https://steamcommunity.com/id/chalkp/"><img src="https://img.shields.io/badge/steam-%231B2838.svg?style=for-the-badge&logo=steam&logoColor=white"></a>
+	<a href="https://orcid.org/0009-0006-5613-2565"><img src="https://img.shields.io/badge/orcid-%231B2838.svg?style=for-the-badge&logo=orcid&logoColor=white"></a>
 </p>
