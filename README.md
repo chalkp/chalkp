@@ -25,8 +25,8 @@
     },
     "past_achievements": [
         "Thailand Olympiad in Informatics 18 Bronze Medalist",
-        "Robocup@Home 2026 Incheon participant (EIC Chula, placed #6)",
-        "Super AI Engineer Season 5 participant",
+        "Robocup@Home 2026 Incheon (EIC Chula, placed #6)",
+        "Super AI Engineer Season 5",
     ],
     "past_employments": "Visit https://www.linkedin.com/in/chalkp/",
 }
@@ -36,7 +36,7 @@
 
 | **Familiar** | **Familiar (under violence)** | **I refuse to do this (non-negotiable)** |
 | :---: | :---: | :---: |
-| <img src="https://skillicons.dev/icons?i=python,pytorch,c,cpp" /> | <img src="https://skillicons.dev/icons?i=matlab,js,ts" /> | <img src="https://skillicons.dev/icons?i=html,css,figma,react" /> |
+| <img src="https://skillicons.dev/icons?i=python,pytorch,c,cpp" /> | <img src="https://skillicons.dev/icons?i=matlab,ros,js,ts" /> | <img src="https://skillicons.dev/icons?i=html,css,react" /> |
 
 </div>
 
