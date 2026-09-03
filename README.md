@@ -17,7 +17,7 @@
         "VLA & Diffusion policies for robotic control",
         "Finite-sample imitation bound for flow-matching action heads",
         "Multimodal Human-Robot Interaction",
-        "ASR for low-resource languages",  <-- deprecated, but still got it
+//        "ASR for low-resource languages",  <-- deprecated, but still got it
     ],
     "education": {
         "current": "Computer Engineering, Chulalongkorn (2024~)",
