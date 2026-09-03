@@ -4,7 +4,7 @@
   </a>
 </h1>
 
-<div align='center'> Robotics | ASR </div>
+<div align='center'> Robotics </div>
 
 <h2 align='center'>info</h2>
 
@@ -12,17 +12,23 @@
 {
     "name": "Sorrawit Poomseetong",
     "location": "Pathum Wan, Bangkok",
-    "communication_protocol": "Asynchronous ONLY",
+    "communication_protocol": "Asynchronous ONLY (email)",
     "current_focus": [
         "VLA & Diffusion policies for robotic control",
+        "Finite-sample imitation bound for flow-matching action heads",
         "Multimodal Human-Robot Interaction",
-        "ASR for low-resource languages",
-//        "Quantum optimization algorithms",  <-- deprecated for now
+        "ASR for low-resource languages",  <-- deprecated, but still got it
     ],
     "education": {
         "current": "Computer Engineering, Chulalongkorn (2024~)",
         "previous": "Triam Udom Suksa -> GED (Speedrun)",
     },
+    "past_achievements": [
+        "Thailand Olympiad in Informatics 18 Bronze Medalist",
+        "Robocup@Home 2026 Incheon participant (EIC Chula, placed #6)",
+        "Super AI Engineer Season 5 participant",
+    ],
+    "past_employments": "Visit https://www.linkedin.com/in/chalkp/",
 }
 ```
 <h2 align='center'>skill set</h2>
